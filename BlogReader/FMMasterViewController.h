@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FMMasterViewController : UITableViewController
+@property (strong, nonatomic) NSArray *titlesArray;
 
 @end
